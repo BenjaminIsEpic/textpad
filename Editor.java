@@ -148,7 +148,7 @@ public class Editor extends JFrame implements ActionListener {
                 }
                 if(e.getSource()==about){
                     f=new JFrame();
-                    JOptionPane.showMessageDialog(f,"TextPad™ v1.00, Copyright © 2023 BenjaminIsEpic."+"\nFor TextPad updates goto:\nhttps://github.com/BenjaminIsEpic/textpadjava");
+                    JOptionPane.showMessageDialog(f,"TextPad™ v1.00, Copyright © 2023-2026 Bifodyl."+"\nFor TextPad updates goto:\nhttps://github.com/Bifodyl/textpad");
 
 
                 }
@@ -156,4 +156,5 @@ public class Editor extends JFrame implements ActionListener {
                     System.exit(0);
                 }
             }
+
         }
